@@ -79,15 +79,15 @@ input() function : function allows the user to take input from the keyboard in t
 
 # Chapter - 3 (Strings)
 
-string is a datatype in python 
+string is a datatype in python
 
 string is a sequence of characters enclosed in quotes ====>  ' ' , '' '',''' '''
 
-**String slicing :** string in python is sliced for getting a part of string 
+**String slicing :** string in python is sliced for getting a part of string
 
  **forward indexing :** indexing in a string starts from 0 to (len-1) in python ,
 
- **backward indexing :** indexing starts from left to right which is  , it starts with -1 
+ **backward indexing :** indexing starts from left to right which is  , it starts with -1
 
 name = "Meghana"
 
@@ -97,7 +97,6 @@ name = "Meghana"
 
     s[1:3] returns "eg"
 
-![1750525355655](image/README/1750525355655.png)
 
 **Slicing with skip value :** we can provide a skip value as a part of our slice
 
@@ -111,7 +110,7 @@ name = "Meghana"
 
     word[0:]  ----> 'amazing'
 
-**String funnctions :** 
+**String funnctions :**
 
 1. len()
 2. string.endswith('g')
