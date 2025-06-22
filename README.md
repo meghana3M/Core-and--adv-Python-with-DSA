@@ -97,7 +97,6 @@ name = "Meghana"
 
     s[1:3] returns "eg"
 
-
 **Slicing with skip value :** we can provide a skip value as a part of our slice
 
  ex: word = "amazing"
@@ -120,3 +119,50 @@ name = "Meghana"
 6. string.replace(oldword , newword)
 
 # **Chapter - 4 : (Lists and tuples)**
+
+lists are containers to store set of values of any datatype
+
+fruits['apple','banana',7,False]
+
+**List indexing** : can be indexed just like a string
+
+    name = [7 , 9 ,'Harry']
+
+name[0] = 7
+
+name[1] = 9
+
+name[50] = error
+
+name[0:2] = [7,9]
+
+**List Methods :** 
+
+ list[1,8,7,2,21,15]
+
+1. list.sort() : updates the list to [1,2,7,8,15,21]
+2. list.reverse() : updates the list to [15,21,2,7,8,1]
+3. list.append(8) : adds 8 at the end of the list
+4. list.insert(3,8) : this will add 8 at 3rd index
+5. list.pop(2) : will delete element at index 2 and returns its value
+6. list.remove(21) : will remove 21 from the list
+
+**Tuples :** tuple is an immuatable(can not be changed) data type
+
+a = () ===> empty tuple
+
+a = (1, ) ===> tuple with only one element needs a comma
+
+a = (1,7,2) ===> tuple with more than one element
+
+**once defined a tuple element cant be altered or manipulated**
+
+**Tuple methods :** 
+
+    a = (1,7,2)
+
+a.count(1) : it returns number of times 1 occures in a
+
+a.index(1) : returns the index of first occurance of 1 in a
+
+**Chapter - 5 (Dictionary & sets)**
