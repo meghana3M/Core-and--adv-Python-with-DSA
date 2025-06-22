@@ -136,7 +136,7 @@ name[50] = error
 
 name[0:2] = [7,9]
 
-**List Methods :** 
+**List Methods :**
 
  list[1,8,7,2,21,15]
 
@@ -157,7 +157,7 @@ a = (1,7,2) ===> tuple with more than one element
 
 **once defined a tuple element cant be altered or manipulated**
 
-**Tuple methods :** 
+**Tuple methods :**
 
     a = (1,7,2)
 
@@ -165,4 +165,56 @@ a.count(1) : it returns number of times 1 occures in a
 
 a.index(1) : returns the index of first occurance of 1 in a
 
-**Chapter - 5 (Dictionary & sets)**
+# **Chapter - 5 (Dictionary & Sets)**
+
+**Dictionary :** collection of key value pairs
+
+ syntax : a = {'key':'value','harry':'code','marks':'100','list':'[1,2,9]'}
+
+a['key'] => print 'value'
+
+a['list'] => print [1,2,9]
+
+**properties in dictionaries :
+
+1. it is unordered
+2. it is mutable
+3. it is indexed
+4. cannot contain duplicate keys
+
+methods in dictionary :
+
+  ex : a = {'name':'harry' , 'from':'india' , 'marks' : [92,98,96]}
+
+1. a.items() : returns a list of (key value) tuples
+2. a.keys() : returns list containing dictionaries keys
+3. a.update({'fruit':'sam'}) : updates dictionary with supplied key value pair
+4. a.get('name') : returns the value of key ===> harry
+
+**Sets in python :** collection of non repetative elements
+
+s = set()
+
+s.add(1)
+
+s.add(2)
+
+**properties of sets**
+
+1. sets are unordered -> order does not matter
+2. sets are unindexed -> cannot access elements by index
+3. there is no way to change items in sets
+4. sets can not contain duplicate values
+
+**operations on sets**
+
+   s = {1,8,2,3}
+
+1. len(s) : returns 4
+2. s.remove(8) : updates set and removes 8 from s
+3. s.pop(): removes arbitrary element from set and returns element removed
+4. s.clear(): empties the set s
+5. s.union({8,11}) : returns new set with all items from both the sets ==> {1,8,2,3,11}
+6. s.intersection({8,11}) : returns a set which contains only items in both sets ===> {8}
+
+# Chapter-6 Conditional Expressions
