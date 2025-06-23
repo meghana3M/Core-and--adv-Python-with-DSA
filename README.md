@@ -1,9 +1,8 @@
-
 # Python programming language
 
 python is a high-level and easy to understand and simple language , python is a interpreted language but technically it does both compiling and interpreting and it is object oriented (structring the code using objects ===> data means attributes and behaviour means methods / functions) programming language .
 
-python can not used by mobile applications 
+python can not used by mobile applications
 
 Features :
 
@@ -247,3 +246,71 @@ we must be able to execute instructions on a conditions being met
 **Logical Operators :**   (and or not)    these operate on conditional statements
 
 **elif clause : [ else if ]** if stat can be chained together with a lot of these elif stat follwed by else
+
+# **Chapter - 7 (loops in python)**
+
+sometimes we need to repeat set of statements in our program for instance .
+
+so loops make it easy for programmers to tell the computer which set of instructions to repeat and how
+
+#### **Types of loops in python :**
+
+primarily there are two types of loops in python :
+
+1. while loop : condition is checked first , if it evaluates to true the body of loop is executed otherwise not , once the loop is entered process is continued until the condition becomes false
+2. for loop : iterates through sequence like list , tuple,string
+
+syntax of while loop : while condition :
+
+    #body of loop
+
+syntax of for loop : for list in i :
+
+    print(list)
+
+Range function in Python : used to generate a sequence of numbers
+
+    range(start,stop,step)
+
+ex: for i in range(0,7):
+
+    print(i)
+
+for loop with else :
+
+ex: list = [1,2,3,4]
+
+    for item in list :
+
+    print(item)
+
+    else :
+
+    print("done")
+
+**break stat** : used to come out  of loop when encountered
+
+ex: for i  in range(0,80)
+
+    print(i)
+
+    if i ==3 :
+
+    break
+
+**continue stat :** used to stop current iteration of loop and continue with the next
+
+ex : for i in range(0,4):
+           print("new")
+
+    if i==2:
+
+    continue
+
+    print(i)
+
+**Pass stat :** null stat in python which means it does nothing
+
+ex: for i in list :
+
+    pass  ----> without pass the program will  give an error
