@@ -1,6 +1,9 @@
+
 # Python programming language
 
-python is a high-level and easy to understand and simple language .
+python is a high-level and easy to understand and simple language , python is a interpreted language but technically it does both compiling and interpreting and it is object oriented (structring the code using objects ===> data means attributes and behaviour means methods / functions) programming language .
+
+python can not used by mobile applications 
 
 Features :
 
@@ -11,6 +14,12 @@ Features :
 3.high level language
 
 4.portable - works on windows or linus or mac
+
+5.Python has inbuilt library
+
+Interpreter : An **interpreter** translates and executes the code  **line by line** , at  **runtime** .
+
+compiler : A **compiler** translates the **entire code** (source code) into **machine code (binary)**  **at once** , before running the program.
 
 # Chapter-1 (modules and comments and pip)
 
@@ -122,7 +131,7 @@ name = "Meghana"
 
 lists are containers to store set of values of any datatype
 
-fruits['apple','banana',7,False]
+fruits=['apple','banana',7,False]
 
 **List indexing** : can be indexed just like a string
 
@@ -146,6 +155,8 @@ name[0:2] = [7,9]
 4. list.insert(3,8) : this will add 8 at 3rd index
 5. list.pop(2) : will delete element at index 2 and returns its value
 6. list.remove(21) : will remove 21 from the list
+7. len(list) : gives the length of list
+8. l
 
 **Tuples :** tuple is an immuatable(can not be changed) data type
 
@@ -217,4 +228,22 @@ s.add(2)
 5. s.union({8,11}) : returns new set with all items from both the sets ==> {1,8,2,3,11}
 6. s.intersection({8,11}) : returns a set which contains only items in both sets ===> {8}
 
-# Chapter-6 Conditional Expressions
+# **Chapter-6 Conditional Expressions** :
+
+we must be able to execute instructions on a conditions being met
+
+1. if else
+2. elif
+   syntax :
+3. if(condition):
+   print('yes')
+   elif(condition):
+   prit("no")
+   else:
+   print("Maybe")
+
+**Relational Operators :  ( == , >= , <= )**   used to evaluate the conditions inside the if statement
+
+**Logical Operators :**   (and or not)    these operate on conditional statements
+
+**elif clause : [ else if ]** if stat can be chained together with a lot of these elif stat follwed by else
