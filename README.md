@@ -272,13 +272,17 @@ Range function in Python : used to generate a sequence of numbers
 
     range(start,stop,step)
 
-ex: for i in range(0,7):
+ex: 
+
+    for i in range(0,7):
 
     print(i)
 
 for loop with else :
 
-ex: list = [1,2,3,4]
+ex: 
+
+list = [1,2,3,4]
 
     for item in list :
 
@@ -290,7 +294,9 @@ ex: list = [1,2,3,4]
 
 **break stat** : used to come out  of loop when encountered
 
-ex: for i  in range(0,80)
+ex: 
+
+    for i  in range(0,80)
 
     print(i)
 
@@ -300,7 +306,9 @@ ex: for i  in range(0,80)
 
 **continue stat :** used to stop current iteration of loop and continue with the next
 
-ex : for i in range(0,4):
+ex :
+
+    for i in range(0,4):
            print("new")
 
     if i==2:
@@ -311,6 +319,8 @@ ex : for i in range(0,4):
 
 **Pass stat :** null stat in python which means it does nothing
 
-ex: for i in list :
+ex: 
+
+    for i in list :
 
     pass  ----> without pass the program will  give an error
