@@ -4,6 +4,12 @@ python is a high-level and easy to understand and simple language , python is a 
 
 python can not used by mobile applications
 
+A **dynamic programming language** is a language that allows you to execute **dynamic behavior** like adding new code, changing types, modifying objects or structures during runtime (while the program is running).
+
+A **function** is a block of code that performs a specific task and can be called independently.
+
+A **method** is a function that is associated with an object or class.
+
 Features :
 
 1.easy to understand - less developement time
@@ -128,7 +134,7 @@ name = "Meghana"
 
 # **Chapter - 4 : (Lists and tuples)**
 
-lists are containers to store set of values of any datatype
+lists are containers to store set of values of any datatype and is mutable
 
 fruits=['apple','banana',7,False]
 
@@ -144,6 +150,10 @@ name[50] = error
 
 name[0:2] = [7,9]
 
+name[:] => [7,9,'Harry']
+
+nested indexing : print(name[2][0]) ===> H
+
 **List Methods :**
 
  list[1,8,7,2,21,15]
@@ -152,10 +162,15 @@ name[0:2] = [7,9]
 2. list.reverse() : updates the list to [15,21,2,7,8,1]
 3. list.append(8) : adds 8 at the end of the list
 4. list.insert(3,8) : this will add 8 at 3rd index
-5. list.pop(2) : will delete element at index 2 and returns its value
-6. list.remove(21) : will remove 21 from the list
+5. list.pop(2) : will delete element at index 2 and returns its value , works according to the index
+6. list.remove(21) : will remove 21 from the list , works according to the value
 7. len(list) : gives the length of list
-8. l
+8. list.copy(list2) : copies all the elements of list to list2
+9. id(list) == id(list2) : ans is false
+10. list.count(7) : counts the number of times 7 occured
+11. list.clear() : clears the list of items
+12. list.index(7) : returns 2
+13. step slicing : list[1:6:2] ===> [8,2,15]
 
 **Tuples :** tuple is an immuatable(can not be changed) data type
 
@@ -272,7 +287,7 @@ Range function in Python : used to generate a sequence of numbers
 
     range(start,stop,step)
 
-ex: 
+ex:
 
     for i in range(0,7):
 
@@ -280,7 +295,7 @@ ex:
 
 for loop with else :
 
-ex: 
+ex:
 
 list = [1,2,3,4]
 
@@ -294,7 +309,7 @@ list = [1,2,3,4]
 
 **break stat** : used to come out  of loop when encountered
 
-ex: 
+ex:
 
     for i  in range(0,80)
 
@@ -319,7 +334,7 @@ ex :
 
 **Pass stat :** null stat in python which means it does nothing
 
-ex: 
+ex:
 
     for i in list :
 
