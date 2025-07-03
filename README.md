@@ -50,7 +50,7 @@ Comments : writing something so that the programmer does not want to execute
 types of comments :
 
 1. Single line -> #
-2. Multi line -> """ """
+2. Multi line -> """ """ / ''' '''
 
 # Chapter -2 (datatypes and variables)
 
@@ -69,7 +69,7 @@ types of comments :
 
 1.integer
 
-2.floating point numbers
+2.floating point numbers 
 
 3.strings
 
@@ -79,15 +79,47 @@ types of comments :
 
 operators in python :
 
-1.arithmetic operators => +,-,*,/,%,//
+**1.arithmetic operators** => +,-,*,/,%(modules),//(floor division),**(power) :
 
-2.assignment operator => =,+=,-= etc
+  a = 89
+
+  b=9
+
+ print(a+b) == 98
+
+ print(a-b) == 80
+
+print(a*b) == 801
+
+print(a/b) == 9.888888889
+
+print(a//b) == 9
+
+print(a%b) == 8
+
+print(a**b) == 350356403707485209
+
+**2.assignment operator** => =,+=,-= etc
 
 3.comparison operator=> ==,.,>=,<,!=
 
 4.Logical operator => and , or , not
 
-type() function : (use to find the datatype of a varaiable given , type takes only arg or parameter)) and typecasting:(converting one datatype to other)) :
+5.bitwise operator : 
+
+6: ternary operator : 
+
+7.membership operator : 
+
+8.identity operator : 
+
+**type() function :** (use to find the datatype of a varaiable given , type takes only arg or parameter)) and 
+
+**typecasting:** (converting one datatype to other)) 
+
+a = 2
+
+id(a) ===> 2334563656 (id is the address of the value a)
 
 input() function : function allows the user to take input from the keyboard in the form of string
 
@@ -123,7 +155,7 @@ name = "Meghana"
 
     word[0:]  ----> 'amazing'
 
-**String funnctions :**
+**String functions :**
 
 1. len()
 2. string.endswith('g')
@@ -153,6 +185,16 @@ name[0:2] = [7,9]
 name[:] => [7,9,'Harry']
 
 nested indexing : print(name[2][0]) ===> H
+
+**unpacking of variables :**
+
+  u,j,i = ['ram','sita','shiva'] 
+
+  print(u) => ram
+
+  print(j) => sita
+
+  print(i) => shiva
 
 **List Methods :**
 
